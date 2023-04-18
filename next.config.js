@@ -5,4 +5,15 @@ const nextConfig = {
   },
 }
 
+module.exports = {
+  images: {
+    remotePatterns: [
+      {
+        domains: ['github.com']
+      },
+    ],
+  },
+}
+
+
 module.exports = nextConfig
