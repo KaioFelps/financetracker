@@ -1,4 +1,5 @@
 import './globals.css'
+import Navigation from '@/components/Navigation'
 
 export const metadata = {
   title: 'FinanceTracker',
@@ -12,7 +13,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+      <Navigation />
+      {children}
+      </body>
     </html>
   )
 }
